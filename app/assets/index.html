@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+    <meta name="keywords" content="Database,Security,Encryption"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+      
+    <link rel="shortcut icon" href="images/zerodb.png">
+    <title>ZeroDB - An end-to-end encrypted database protocol</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app.css">
+      
+    <!-- Modernizer and IE specyfic files -->  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>	
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60919921-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+      
+  </head>
+  
+  <body>
+  
+	<div id="preloader_container">
+	
+		<!-- Fullscreen homepage -->
+		<section class="hero_fullscreen background_solid">		
+
+
+			<!-- Logo and navigation -->
+      <div class="container" >
+          <nav>
+            <div class="nav-wrapper">
+              <a href="/index.html" class="brand-logo"><img src="images/logo.svg" alt="logo" class="logo inner"/></a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="http://blog.zerodb.io/">Blog</a></li>
+                <li><a href="http://docs.zerodb.io/">Documentation</a></li>
+                <li><a href="/customers.html">Customers</a></li>
+                <li><a href="/technology.html">Technology</a></li>
+                <li><a href="/company.html">Company</a></li>
+                <li><a href="/news.html">News</a></li>
+              </ul>
+              <ul class="side-nav" id="mobile-demo">
+                <li><a href="http://blog.zerodb.io/">Blog</a></li>
+                <li><a href="http://docs.zerodb.io/">Documentation</a></li>
+                <li><a href="/customers.html">Customers</a></li>
+                <li><a href="/technology.html">Technology</a></li>
+                <li><a href="/company.html">Company</a></li>
+              </ul>
+            </div>
+          </nav>
+			</div>
+			<!-- //Logo and navigation -->
+
+
+			<!-- Main content -->
+		  	<div class="container align-center" id="main_content">
+				<div class="content_container row" >
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  home_content">
+						<h2 class="slogan">An end-to-end encrypted database protocol.</h2>
+						<h6>ZeroDB enables clients to run queries over encrypted databases without exposing decrypted data to the server and without a proxy gateway.<br class="visible-lg visible-md"> Data at rest and in use is secure - the cloud is no longer a single point of failure.</h6>
+						
+						<!-- CTA Button-->
+						<div class="cta_button_area">
+              <div class="page-scroll" style="display: inline-block"><a class="btn waves-effect waves-light" href="https://github.com/zero-db"><i class="fa fa-github"></i> GitHub</a></div>
+              <div class="page-scroll" style="display: inline-block"><a class="btn waves-effect waves-light" href="http://slack.zerodb.io"><i class="fa fa-slack"></i> Slack</a></div>
+              <div class="page-scroll"><a class="btn waves-effect waves-light" href="http://eepurl.com/bIQKl5"><i class="fa fa-envelope"></i> Mailing List</a></div>
+						</div>
+						<!-- //CTA Button-->
+
+            <img class="img_responsive" src="images/architecture.svg" />
+						
+
+					</div>				
+				</div>			
+			</div>  
+			<!-- //Main content -->			
+	
+		</section>
+		<!-- //Homepage -->
+
+
+		<!-- Subsection: More info -->	
+		<section id="more_info" class="subsection align-center ">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">					
+						<div class="iconbox">
+							<div class="iconbox_icon"><i class="fa fa-refresh"></i></div>
+							<div class="iconbox_content">
+								<h5>End-to-End DB Encryption</h5>
+								<p>Data on the server is always encrypted, at rest, in transit, and in use.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">					
+						<div class="iconbox">
+							<div class="iconbox_icon"><i class="fa fa-search"></i></div>
+							<div class="iconbox_content">
+								<h5>Queries Over Encrypted Data</h5>
+								<p>Sort, search, and query data in the cloud while it's encrypted.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">					
+						<div class="iconbox">
+							<div class="iconbox_icon"><i class="fa fa-share-alt"></i></div>
+							<div class="iconbox_content">
+								<h5>Direct Cloud Sharing</h5>
+								<p>Proxy reencryption enables direct, cloud-based sharing with approved third-party apps.</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!-- //Subsection: More info -->
+		
+		
+		<!-- Subsection: Features -->
+		<section class="subsection darker_bg" id="features">
+			<div class="container">
+				<div class="row feature_row">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<h3>Secure and private database.</h3>
+						<p>ZeroDB is an end-to-end encrypted database in which the database server knows nothing about the data it is storing, greatly reducing the risk of data breach. Query logic is performed client-side against encrypted data on a remote server.</p>
+						<p>Even if the database server is compromised, an attacker will not be able to view the unencrypted data.</p>
+					</div>
+					
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-center deatures_image" >
+						<img src="images/Database-Network.svg" alt="" class="img_responsive feature-svg"/>
+					</div>	
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-center features_image" >
+						<img src="images/Database-Cloud.svg" alt="" class="img_responsive feature-svg"/>
+					</div>	
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<h3>Secure storage in the cloud.</h3>
+						<p>ZeroDB enables you to offload security-critical applications to the cloud. Enjoy the cost and performance benefits of the cloud without comprimising on security or usability. Your can even securely share your data with apps like Salesforce using proxy re-encryption technology.</p>
+            <p>The public cloud is no longer a single point of failure.</p>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<!-- //Subsection: Features -->
+
+
+    <!-- Subsection: Newspapers -->
+		<section id="newspapers" class="subsection align-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center intro">
+							<h3>As Featured In</h3>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 reviews_logo"><img src="images/reviews_logos/the-changelog.png" alt=""></div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 reviews_logo"><img src="images/reviews_logos/forbes.png" alt=""></div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 reviews_logo"><img src="images/reviews_logos/zdnet.png" alt=""></div>
+				</div>
+					
+			</div>
+		</section>
+		<!-- //Subsection: Newspapers -->
+		
+		<!-- Subsection: CTA -->
+		<section class="subsection darker_bg">
+			<div class="container">
+				<div class="row align-center">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3>Outsource your infrastructure, <br class="visible-lg visible-md">not your security.</h3>
+            
+          <div>
+          <form class="col s12" id="contact-form">
+            <h4>Questions? Want to chat?</h4>
+            <div class="row">
+              <div class="col s3"></div>
+              <div class="input-field col s6">
+                <input id="name" type="text" class="validate" required data-validation-required-message="Please enter your name.">
+                <label for="name">Full Name</label>
+              </div>
+              <div class="col s3"></div>
+            </div>
+            <div class="row">
+              <div class="col s3"></div>
+              <div class="input-field col s6">
+                <input id="organization" type="text" class="validate" required data-validation-required-message="Please enter your company or organization.">
+                <label for="organization">Company/Organization</label>
+              </div>
+              <div class="col s3"></div>
+            </div>
+            <div class="row">
+              <div class="col s3"></div>
+              <div class="input-field col s6">
+                <input id="job" type="text" class="validate" required data-validation-required-message="Please enter your job title.">
+                <label for="job">Job Function/Role</label>
+              </div>
+              <div class="col s3"></div>
+            </div>
+            <div class="row">
+              <div class="col s3"></div>
+              <div class="input-field col s6">
+                <input id="email" type="email" class="validate" required data-validation-required-message="Please enter your email address.">
+                <label for="email">Email</label>
+              </div>
+              <div class="col s3"></div>
+            </div>
+            <div class="row">
+              <div class="col s3"></div>
+              <div class="input-field col s6">
+                <input id="phone" type="tel" class="validate">
+                <label for="phone">Phone Number (optional)</label>
+              </div>
+              <div class="col s3"></div>
+            </div>
+            <div id="success"></div>
+            <button class="btn waves-effect waves-light" type="submit">Submit</button>
+          </form>
+        </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- //Subsection: CTA -->
+		
+		<!-- Footer -->
+		<section id="footer" class="subsection color_bg">
+		  	<div class="container" >
+		  		<div class="row ">
+		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 outher">
+              <a href="https://twitter.com/ZeroDB_" class="inner iconbox_icon"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/ZeroDB.io" class="inner iconbox_icon"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/company/zerodb?trk=top_nav_home" class="inner iconbox_icon"><i class="fa fa-linkedin"></i></a>
+              <a href="https://angel.co/zerodb" class="inner iconbox_icon"><i class="fa fa-angellist"></i></a>
+              <p class="float-right inner  visible-lg visible-md">Email us <a href="mailto:hello@zerodb.io?Subject=Website%20Inquiry">hello@zerodb.io</a></p>
+		  			</div>
+		  		</div>
+			</div>
+		</section>
+		<!-- //Footer -->
+				
+
+	</div>
+	
+   
+	<!-- JavaScript plugins comes here -->	
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script><!-- Parse JavaScript -->
+
+  <script src="app.js"></script>
+  <script>require('application').init();</script>
+
+  </body>
+
+</html>

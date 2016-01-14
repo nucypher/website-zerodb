@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------
+[Stylesheet]
+Color Palette
+-------------------------------------------------------------------*/
+
+.btn,
+.btn-large {
+	background-color: #2C3E50;
+}
+
+.btn:hover,
+.btn-large:hover {
+	background-color: #1f2c4a;
+}
+
+.hero_fullscreen.background_solid,
+.color_bg {
+	background-color: #18BC9C;
+}
+
+a {
+	color:#1f2c4a;
+}
