@@ -26,28 +26,6 @@ var App = {
         window.getSelection().removeAllRanges();  
     });
 
-    // console
-    (function () {
-      var Console;
-      Console = function () {
-        function Console() {
-          this.input = $('.console-input');
-          this.pos = 0;
-          this.prompt_text = '';
-          this.init();
-        }
-        Console.prototype.init = function () {
-          return this._focus();
-        };
-        Console.prototype._focus = function () {
-          return this.input.focus();
-        };
-        return Console;
-      }();
-      $(function () {
-        return window.Console = new Console();
-      });
-    }.call(this))
   }
 };
 
