@@ -16,6 +16,9 @@ var App = {
           // Now that we've selected the anchor text, execute the copy command  
           var successful = document.execCommand('copy');  
           var msg = successful ? 'successful' : 'unsuccessful';  
+          var tooltip = document.querySelector('.js-pipcopybtn');
+          document.querySelector('.material-tooltip > span').innerHTML ='Copied!'
+          tooltip.setAttribute('data-tooltip', 'Copied!');
           console.log('Copy pip command was ' + msg);  
         } catch(err) {  
           console.log('Oops, unable to copy');  
@@ -24,6 +27,10 @@ var App = {
         // Remove the selections - NOTE: Should use   
         // removeRange(range) when it is supported  
         window.getSelection().removeAllRanges();  
+    }, false);
+    copyPipBtn.addEventListener('mouseleave', function(event) {  
+      var tooltip = document.querySelector('.js-pipcopybtn');
+      tooltip.setAttribute('data-tooltip', 'Click to copy');
     });
 
   }
