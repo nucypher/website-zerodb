@@ -80,7 +80,7 @@
                         <h3>A New Open Source Community for Hadoop</h3>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-center deatures_image" >
-                        <img src="images/hadoop.png" alt="" class="img_responsive feature-svg"/>
+                        <img src="images/hadoop.png" alt="" class="img_responsive "/>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
 
@@ -135,31 +135,7 @@
 
   <script src="app.js"></script>
   <script>require('application').init();</script>
-  <script>
-    /*===================================================================================*/
-    /*	ANIMATIONS ON SCROLL   (I can make global)
-    /*===================================================================================*/
 
-        var waypointClass = '[class*="col-"]';
-        var animationClass = 'fadeInUp';
-        var delayTime;
-        $(waypointClass).css({opacity: '0'});
-
-        $(waypointClass).waypoint(function () {
-                delayTime += 100;
-                $(this).delay(delayTime).queue(function (next) {
-                    $(this.element).toggleClass('animated');
-                    $(this.element).toggleClass(animationClass);
-                    delayTime = 500;
-                    $(this.element).delay(delayTime).css({opacity: '1'});
-                    next();
-                });
-            },
-            {
-                offset: '90%',
-                triggerOnce: true
-            });
-  </script>
 
   </body>
 
