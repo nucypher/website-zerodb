@@ -38,29 +38,7 @@ var App = {
       });
     }
 
-     /*===================================================================================*/
-    /*	ANIMATIONS ON SCROLL
-    /*===================================================================================*/
 
-        var waypointClass = '[class*="col-"]';
-        var animationClass = 'fadeInUp';
-        var delayTime;
-        $(waypointClass).css({opacity: '0'});
-
-        $(waypointClass).waypoint(function () {
-                delayTime += 100;
-                $(this).delay(delayTime).queue(function (next) {
-                    $(this.element).toggleClass('animated');
-                    $(this.element).toggleClass(animationClass);
-                    delayTime = 500;
-                    $(this.element).delay(delayTime).css({opacity: '1'});
-                    next();
-                });
-            },
-            {
-                offset: '90%',
-                triggerOnce: true
-            });
 
   }
 };
