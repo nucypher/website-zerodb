@@ -40,6 +40,11 @@
     box-shadow: 0 5px 11px 0 rgba(209, 209, 209, 0.30), 0 4px 15px 0 rgba(223, 223, 223, 0.45);
 }
 
+.product-svg{
+    height: 250px;
+    padding:10%;
+}
+
 .white-bg{
     background: white;
 }
