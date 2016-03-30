@@ -1,0 +1,41 @@
+.team-bg{
+    background-image: "images/keyboard-zoom.jpg";
+}
+
+.team-hero-bg{
+    background-image: url("images/keyboard-zoom.jpg");
+    background-size: cover;
+
+}
+
+.team-hero-cover{
+    padding-top: 3rem ;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 150, 136, 0.85);
+
+}
+
+.team-hero{
+    height: 12rem;
+
+}
+
+figcaption div {
+    min-height: 7rem;
+}
+
+
+
+.member .img-circle {
+    max-width: 250px;
+
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+figure img {
+    width: 100%;
+    height: auto;
+}
