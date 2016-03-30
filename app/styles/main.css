@@ -347,6 +347,18 @@ nav ul li a:hover {
   color: #2C3E50;
 }
 
+
+.dropdown-content {
+	min-width: 250px;
+	overflow: visible;
+}
+
+.dropdown-content li {
+
+	opacity: 1;
+	width: 90%;
+}
+
 #main_content {
 	margin-top:12rem;
 	position:absolute;

@@ -1,10 +1,22 @@
-.product-bg{
-    background-image: "images/network-bg.jpg";
+.securepremise-bg{
+    background-image: "images/bg/onpremise-opt.jpg";
 }
 
-.product-hero-bg{
-    background-image: url("images/network-bg.jpg");
+.securepremise-hero-bg{
+    background-image: url("images/bg/onpremise-opt.jpg");
     background-size: cover;
+    background-position-y: -10rem;
+
+}
+
+.securecloud-bg{
+    background-image: "images/bg/network-bg.jpg";
+}
+
+.securecloud-hero-bg{
+    background-image: url("images/bg/network-bg.jpg");
+    background-size: cover;
+
 
 }
 

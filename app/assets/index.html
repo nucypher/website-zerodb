@@ -44,13 +44,20 @@
             <a href="/index.html" class="brand-logo"><img src="images/logo.svg" alt="logo" class="logo inner"/></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
             <ul class="right hide-on-med-and-down">
-				<li><a href="/product.html">product</a></li>
+
+				<li><a class="dropdown-button" href="#!" data-activates='dropdown1'>product<i class="material-icons right"></i></a></li>
+
               	<!--<li><a href="/solutions.html">process</a></li>-->
               	<li><a href="https://medium.com/@ZeroDB_" target="_blank">blog</a></li>
               	<li><a href="/team.html" >company</a></li>
             </ul>
+			  <ul id="dropdown1" class="dropdown-content">
+				  <li><a href="/secure-premise.html">secure on-premise</a></li>
+				  <li><a href="/secure-cloud.html">secure cloud</a></li>
+				</ul>
             <ul class="side-nav" id="mobile-demo">
-				<li><a href="/product.html">product</a></li>
+				<li><a href="/secure-premise.html">secure on-premise</a></li>
+				  <li><a href="/secure-cloud.html">secure cloud</a></li>
               	<!--<li><a href="/solutions.html">process</a></li>-->
               	<li><a href="https://medium.com/@ZeroDB_" target="_blank">blog</a></li>
               	<li><a href="/team.html" >company</a></li>
@@ -171,15 +178,16 @@
 		<section class="subsection darker_bg" id="features">
 			<div class="container">
 				<div class="row feature_row">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-center deatures_image" >
+						<img src="images/Database-Network.svg" alt="" class="img_responsive feature-svg"/>
+					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<h3>Infrastructure Secured. <br>on-premise or in the cloud.</h3>
 						<p>ZeroDB End-to-End Secure Big Data is the world’s first End-to-End encryption appliance for Hadoop installations. The installation knows nothing about the data it is storing, greatly reducing the risk of data breach. Query logic is performed client-side against encrypted data on a remote server.</p>
 						<p>Even if the data is hacked, an attacker will not be able to compromise the underlying data.</p>
 					</div>
 
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-center deatures_image" >
-						<img src="images/Database-Network.svg" alt="" class="img_responsive feature-svg"/>
-					</div>
+
 				</div>
 
 				<div class="row">
