@@ -348,13 +348,13 @@ nav ul li a:hover {
 }
 
 #main_content {
-	margin-top:3rem;
-	position:relative;
+	margin-top:12rem;
+	position:absolute;
+	width: 100%;
 }
 
 .home_content {
 	position:relative;
-	width:100%;
 }
 
 #main_content h2, 
