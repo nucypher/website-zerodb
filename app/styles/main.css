@@ -336,11 +336,12 @@ nav {
 nav ul li {
   margin: 0.5em;
   display: inline;
-  opacity: 0.64;
+  opacity: 1;
 }
 
 nav ul li a {
   font-size: 150%;
+	    opacity: .64;
 }
 
 nav ul li a:hover {
