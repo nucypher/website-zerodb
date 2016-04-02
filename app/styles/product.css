@@ -16,8 +16,11 @@
 .securecloud-hero-bg{
     background-image: url("images/bg/network-bg.jpg");
     background-size: cover;
+}
 
-
+.securestorage-hero-bg{
+    background-image: url("images/bg/server-b.jpg");
+    background-size: cover;
 }
 
 .product-hero-cover{
