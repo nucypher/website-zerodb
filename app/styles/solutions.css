@@ -1,0 +1,79 @@
+.solutions-bg{
+    background-image: "images/bg/fintech2.jpeg";
+}
+
+.solutions-hero-bg{
+    background-image: url("images/bg/fintech2.jpeg");
+    background-size: cover;
+    background-position-y: -25rem;
+
+}
+
+.solutions-hero-cover{
+    padding-top: 5rem ;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 150, 136, 1), rgba(0, 150, 136, 0.5));
+
+
+}
+
+.bank-bg{
+   background-image: url("/images/bg/london.jpeg");
+    background-size: cover;
+    background-position-y: -5rem;
+
+}
+
+.material-icon{
+        cursor: pointer;
+}
+
+.card .cover .cover-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150px;
+    overflow: hidden;
+    text-overflow: clip;
+    max-width: 100%;
+    padding: 60px 0px;
+    color: white;
+
+}
+
+.card .cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.4s all ease;
+    overflow: hidden;
+}
+
+.card .cover:hover {
+    transform: scale(1.04);
+}
+
+.card .cover .filter {
+    width: 100%;
+    height: 120%;
+
+
+}
+
+.advantage {
+    padding: 20px;
+    width: 100%;
+    min-height: 100px;
+    transition: all 0.2s ease;
+}
+
+.advantage:hover {
+    opacity: 0.8;
+}
+
+h2.card-title ,
+h3.card-title ,
+h4.card-title{
+    opacity: 1;
+}

@@ -1,9 +1,9 @@
 .team-bg{
-    background-image: "images/keyboard-zoom.jpg";
+    background-image: "images/bg/keyboard-zoom.jpg";
 }
 
 .team-hero-bg{
-    background-image: url("images/keyboard-zoom.jpg");
+    background-image: url("images/bg/keyboard-zoom.jpg");
     background-size: cover;
 
 }

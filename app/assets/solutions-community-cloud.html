@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content="Database,Security,Encryption"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <link rel="shortcut icon" href="images/zerodb.png">
+    <title>ZeroDB - An end-to-end encrypted database protocol</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link  rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="app.css">
+
+    <!-- Modernizer and IE specyfic files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60919921-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </head>
+
+  <body>
+
+	<div id="preloader_container">
+
+		<!-- Fullscreen homepage -->
+		<section class="hero_fullscreen teal">
+
+
+			<!-- Logo and navigation -->
+      <div class="container" >
+        <nav>
+          <div class="nav-wrapper">
+            <a href="/index.html" class="brand-logo"><img src="images/logo.svg" alt="logo" class="logo inner"/></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+            <ul class="right hide-on-med-and-down">
+
+				<li><a class="dropdown-button" href="#!" data-activates='dropdown1'>product<i class="material-icons right"></i></a></li>
+
+              	<!--<li><a href="/solutions.html">process</a></li>-->
+              	<li><a href="http://opensource.zerodb.io/" target="_blank">open source</a></li>
+              	<li><a href="http://blog.zerodb.io" target="_blank">blog</a></li>
+              	<li><a href="/team.html" >company</a></li>
+            </ul>
+			  <ul id="dropdown1" class="dropdown-content">
+				  <li><a href="/secure-premise.html">secure on-premise</a></li>
+				  <li><a href="/secure-cloud.html">secure cloud</a></li>
+				</ul>
+            <ul class="side-nav" id="mobile-demo">
+				<li><a href="/secure-premise.html">secure on-premise</a></li>
+				  <li><a href="/secure-cloud.html">secure cloud</a></li>
+              	<!--<li><a href="/solutions.html">process</a></li>-->
+              	<li><a href="http://opensource.zerodb.io/" target="_blank">open source</a></li>
+              	<li><a href="http://blog.zerodb.io" target="_blank">blog</a></li>
+              	<li><a href="/team.html" >company</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+			<!-- //Logo and navigation -->
+
+	<!-- Main content -->
+    <header class="product-hero solutions-hero-bg">
+        <div class="solutions-hero-cover">
+
+      <div class="container align-center product-bg" >
+        <div class="row" >
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  ">
+              <h2 class="white-wash">Financial Services Solutions</h2>
+              <h4 class="white-wash ">Manage cost and Expand Your Edge Responsibily.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+			<!-- //Main content -->
+    </section>
+
+		<!-- Subsection: What is it? -->
+		<section id="product-what-is-it" class="subsection  darker_bg ">
+            <div class="container">
+                <div class="row card z-depth-2 ">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/bg/london.jpeg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Retail and Institutional Banking<i class="material-icons right">more_vert</i></span>
+                      <p><a  class="activator">Minimize Risk and Maximize Opportunity</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Retail and Institutional Banking<i class="material-icons right">close</i></span>
+                        <h6 class=" grey-text text-darken-4">Minimize Risk and Maximize Opportunity</h6>
+
+                      <p> Banks compete on both their retail and institutional business units. Their goal is to deliver the most advanced consumer products that give them an edge in the race to grow their business. However, new banking computation must be done with complete compliance and security. Most banks have secure computation on premise with Hadoop. However, evolving competition and costs constraints are pushing banks to the cloud. Some of the cloud problems ZeroDB solves for today’s banks include:</p>
+                        <ul class="collection">
+                            <li class="collection-item">Information Technology Log Data management and analysis</li>
+                            <li class="collection-item">Customer transaction data analysis </li>
+                            <li class="collection-item">Fraud and risk modeling and computation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row card z-depth-2 ">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/bg/bloomberg.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Hedge Fund & Quant Fund <i class="material-icons right">more_vert</i></span>
+                      <p><a  class="activator">The Pursuit of Alpha</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Hedge Fund & Quant Fund <i class="material-icons right">close</i></span>
+                        <h6 class=" grey-text text-darken-4">The Pursuit of Alpha</h6>
+
+                      <p>Hedge funds and quant funds compete or die on the quality of their trading models. The most advanced funds already compete with the most advanced, big data tools. However, funds do not have the capacity to build their own End-to-End encryption functionality. As data exploits and bad-actor penetration grows in sophistication, the security of computational algorithms are valued at billions of dollars. Demanding End-to-End encryption from the big data cloud is the new standard and norm for the following problems:</p>
+                        <ul class="collection">
+                            <li class="collection-item">Historical data modeling and back-testing</li>
+                            <li class="collection-item">Enterprise data lakes for sliced data computation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row card z-depth-2 ">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/bg/fin-services.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Financial Services<i class="material-icons right">more_vert</i></span>
+                      <p><a  class="activator">Designed for Compliance and Security</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Financial Services<i class="material-icons right">close</i></span>
+                        <h6 class=" grey-text text-darken-4">Designed for Compliance and Security</h6>
+
+                      <p>Financial services firms feel the increasing pressure to manage costs, while continuing to expand their competitive edge and compliance fulfillment in all markets. ZeroDB secure cloud gives these companies the ability to scale their cloud competitive toolset, while still maintaining strict adherence to data compliance requirements as they have on premise. ZeroDB End-to-End encrypted cloud helps financial firms with the following needs:</p>
+                        <ul class="collection">
+                            <li class="collection-item">Compliance-sensitive data storage and processing </li>
+                            <li class="collection-item">Big data cost management and controls </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- normal style -->
+                <div class="row card z-depth-2 ">
+
+                        <div class="card-content teal white-text">
+                            <div class="card-title">
+                                <h3 >Retail and Institutional Banking</h3>
+                                <h4>Minimize Risk and Maximize Opportunity</h4>
+                            </div>
+                            <p class="flow-text">Banks compete on both their retail and institutional business units. Their goal is to deliver the most advanced consumer products that give them an edge in the race to grow their business. However, new banking computation must be done with complete compliance and security. Most banks have secure computation on premise with Hadoop. However, evolving competition and costs constraints are pushing banks to the cloud. Some of the cloud problems ZeroDB solves for today’s banks include:</p>
+
+                        </div>
+                        <div class="card-action teal">
+                          <a href="#">Read More</a>
+                        </div>
+
+
+                </div>
+
+                <div class="row card z-depth-2 ">
+                    <div class="card-content teal white-text">
+                        <div class="card-title">
+                            <h3 >Retail and Institutional Banking</h3>
+                            <h4>Minimize Risk and Maximize Opportunity</h4>
+                        </div>
+                        <p class="flow-text">Banks compete on both their retail and institutional business units. Their goal is to deliver the most advanced consumer products that give them an edge in the race to grow their business. However, new banking computation must be done with complete compliance and security. Most banks have secure computation on premise with Hadoop. However, evolving competition and costs constraints are pushing banks to the cloud. Some of the cloud problems ZeroDB solves for today’s banks include:</p>
+
+                    </div>
+                    <div class="card-action teal">
+                      <a href="#">Read More</a>
+                    </div>
+
+                </div>
+
+                <div class="row card z-depth-2 ">
+                    <div class="card-content teal ">
+                        <div class="card-title">
+                            <h3 >Financial Services</h3>
+                            <h4>Designed for Compliance and Security</h4>
+                        </div>
+                        <p>Financial services firms feel the increasing pressure to manage costs, while continuing to expand their competitive edge and compliance fulfillment in all markets. ZeroDB secure cloud gives these companies the ability to scale their cloud competitive toolset, while still maintaining strict adherence to data compliance requirements as they have on premise. ZeroDB End-to-End encrypted cloud helps financial firms with the following needs:</p>
+                        <ul class="collection">
+                            <li class="collection-item">Compliance-sensitive data storage and processing </li>
+                            <li class="collection-item">Big data cost management and controls </li>
+                        </ul>
+
+                    </div>
+                    <div class="card-action teal">
+                      <a href="#">Read More</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+		</section>
+		<!-- //Subsection: Features -->
+
+        <section>
+            <div class="row height-container">
+
+
+
+                <div class="scroll-1">
+                    <div class="container-fluid card z-depth-2 waves-effect waves-light">
+                        <div class="cover z-depth-1" style="background-image: url('images/bg/demo-1-bg.jpg');">
+                            <div class="filter ">
+                                <div class="cover-text text-darken-4">
+                                    One
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content white-text">
+                            <div class="card-title">Step - 1 - Get an account on GitHub.</div>
+                            <b>Get an account on GitHub,</b> and verify your email. Remember that the username you choose will be the domain name of your website (unless you want to pay for a .com or something). Click on the button below to see detailed instructions regarding how you can accomplish this without getting your dick caught on a ceiling fan (or an oven, for that matter).
+                        </div>
+                        <div class="card-action {{ site.css }} darken-2">
+                            <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
+                            <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="scroll-1">
+                    <div class="container-fluid card {{ site.css }} z-depth-2 waves-effect waves-light">
+                        <div class="cover z-depth-1" style="background-image: url('{{site.baseurl}}/img/0.jpg');">
+                            <div class="filter {{site.css}}">
+                                <div class="cover-text {{ site.css }}-text text-darken-4">
+                                    Two
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content white-text">
+                            <div class="card-title">Step - 2 - Fork this repository.</div>
+                            Now that you have an account on GitHub, you can safely go<a href="https://github.com/naveenshaji/material/"> here</a>and fork that repo. Just click on the tiny icon in top-right that says '<b>Fork</b>'. In case you have trouble finding said button, or if you want to know what forking or repository means and all that git-technical stuff, click on the button below.
+                        </div>
+                        <div class="card-action {{ site.css }} darken-2">
+                            <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
+                            <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+		 <section>
+            <div class="container align-center" >
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                <!-- Change the width and height values to suit you best -->
+                <div id="join" class="typeform-widget" data-url="https://lookupleads.typeform.com/to/nXnbgS" data-text="Registration Form" style="width:100%;height:500px;"></div>
+                <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+                </div>
+            </div>
+        </section>
+
+		 <section class="subsection darker_bg">
+            <div class="container align-center" >
+              <h3>Looking for the old ZeroDB, the open-source end-to-end encrypted database?</h3>
+              <h4><a href="http://opensource.zerodb.io/">Click here.</a></h4>
+            </div>
+        </section>
+
+
+		<!-- Footer -->
+		<section id="footer" class="subsection teal">
+      <div class="container align-center" >
+        <div class="row ">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 outher">
+            <a href="https://twitter.com/ZeroDB_" class="inner iconbox_icon"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ZeroDB.io" class="inner iconbox_icon"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/zerodb?trk=top_nav_home" class="inner iconbox_icon"><i class="fa fa-linkedin"></i></a>
+            <a href="https://angel.co/zerodb" class="inner iconbox_icon"><i class="fa fa-angellist"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <h6><a href="mailto:hello@zerodb.io?Subject=ZeroDB%20Question">hello@zerodb.io</a></h6>
+        </div>
+      </div>
+		</section>
+		<!-- //Footer -->
+
+
+	</div>
+
+
+	<!-- JavaScript plugins comes here -->
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+  <script src="app.js"></script>
+  <script>require('application').init();</script>
+
+
+  </body>
+
+</html>
